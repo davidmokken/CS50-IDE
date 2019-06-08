@@ -1,0 +1,10 @@
+0. 3x3 to 9x9
+1. 2D-Array
+2. void greet(void)
+{
+    clear();
+    printf("WELCOME TO GAME OF FIFTEEN\n");
+    usleep(2000000);
+}
+3.  init&draw&move&win
+
