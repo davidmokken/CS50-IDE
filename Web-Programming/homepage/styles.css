@@ -1,0 +1,82 @@
+.color {
+    background-color: #d8e9fc;
+}
+
+h1 {
+    font-family: Georgia;
+    font-weight: bold;
+    color: black;
+    font-size: 64px;
+    text-align: center;
+}
+
+h2{
+    font-family: Georgia;
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+
+.cv-img {
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  margin: 0;
+  padding-top: 75px;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
